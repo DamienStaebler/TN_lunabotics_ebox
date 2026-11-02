@@ -548,12 +548,6 @@
 		(uuid "053f55de-9ae5-4a3e-a1f6-496c5b027cb6")
 	)
 	(junction
-		(at 64.77 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0b84ba84-2d9d-4643-8ae1-489c903030ab")
-	)
-	(junction
 		(at 133.35 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -564,12 +558,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2c177690-49b9-4847-9e7b-c7b0e0ea6ac1")
-	)
-	(junction
-		(at 64.77 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3a3c57bc-1c5d-4fad-b1ae-328b61931cfd")
 	)
 	(junction
 		(at 91.44 92.71)
@@ -873,16 +861,6 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 87.63) (xy 64.77 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69062e73-64ff-4413-8049-6c642a3e85c4")
-	)
-	(wire
-		(pts
 			(xy 125.73 110.49) (xy 125.73 125.73)
 		)
 		(stroke
@@ -930,16 +908,6 @@
 			(type default)
 		)
 		(uuid "93ed6c33-9bfe-4d61-b3ab-b5413d82cdc5")
-	)
-	(wire
-		(pts
-			(xy 64.77 92.71) (xy 41.91 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9766338d-57ec-4175-a687-4765265c8b8e")
 	)
 	(wire
 		(pts
@@ -1131,6 +1099,46 @@
 		)
 		(uuid "ff0f53ad-1f51-4e3d-861c-2a26c81f4e27")
 	)
+	(label "GND"
+		(at 64.77 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5097ba29-3b2d-421f-8398-ed7e388f5801")
+	)
+	(label "GND"
+		(at 35.56 81.28 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "794662a6-ac45-4973-a829-09f9641ae6aa")
+	)
+	(label "VCC"
+		(at 64.77 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a2d80ee5-b6b1-4aab-bd4a-0c25ebf4dd60")
+	)
+	(label "VCC"
+		(at 33.02 81.28 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f6b9c458-770d-4f64-8226-ce5b09f7ab7f")
+	)
 	(symbol
 		(lib_id "Device:Fuse")
 		(at 83.82 106.68 0)
@@ -1165,7 +1173,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:FUSE_EBOX"
 			(at 82.042 106.68 90)
 			(hide yes)
 			(show_name no)
@@ -1225,7 +1233,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2dfb9f33-c271-4aa4-a3c9-b3965b178c7d")
-		(property "Reference" "J1"
+		(property "Reference" "J2"
 			(at 91.44 140.9699 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1247,7 +1255,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_Phoenix:SPARKMAX_CONNECTOR"
 			(at 88.9 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -1289,7 +1297,7 @@
 		(instances
 			(project "right_ebox"
 				(path "/a717b0d5-2372-4f47-b3ca-c1f58656d6b1"
-					(reference "J1")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -1307,7 +1315,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "32104389-1f20-4286-80ff-b7356360825d")
-		(property "Reference" "F6"
+		(property "Reference" "F3"
 			(at 128.27 105.4099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1329,7 +1337,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:FUSE_EBOX"
 			(at 123.952 106.68 90)
 			(hide yes)
 			(show_name no)
@@ -1371,7 +1379,7 @@
 		(instances
 			(project "right_ebox"
 				(path "/a717b0d5-2372-4f47-b3ca-c1f58656d6b1"
-					(reference "F6")
+					(reference "F3")
 					(unit 1)
 				)
 			)
@@ -1389,7 +1397,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "421d72fb-b440-4f64-9b90-3b51b269c881")
-		(property "Reference" "F5"
+		(property "Reference" "F2"
 			(at 107.95 105.4099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1411,7 +1419,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:FUSE_EBOX"
 			(at 103.632 106.68 90)
 			(hide yes)
 			(show_name no)
@@ -1453,7 +1461,7 @@
 		(instances
 			(project "right_ebox"
 				(path "/a717b0d5-2372-4f47-b3ca-c1f58656d6b1"
-					(reference "F5")
+					(reference "F2")
 					(unit 1)
 				)
 			)
@@ -1471,7 +1479,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d577bd5-4952-449e-8ade-052cd8c55d22")
-		(property "Reference" "C5"
+		(property "Reference" "C4"
 			(at 128.651 118.11 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1481,7 +1489,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Polarized"
+		(property "Value" "1uF"
 			(at 128.651 120.65 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1491,7 +1499,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
 			(at 133.35 124.7648 0)
 			(hide yes)
 			(show_name no)
@@ -1533,7 +1541,7 @@
 		(instances
 			(project "right_ebox"
 				(path "/a717b0d5-2372-4f47-b3ca-c1f58656d6b1"
-					(reference "C5")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -1551,7 +1559,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "564599b4-fb41-48d6-af40-0e71ad596107")
-		(property "Reference" "C3"
+		(property "Reference" "C1"
 			(at 68.58 86.7409 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1562,7 +1570,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Polarized"
+		(property "Value" "1mF"
 			(at 68.58 89.2809 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1573,7 +1581,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.80mm"
 			(at 65.7352 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -1615,7 +1623,7 @@
 		(instances
 			(project "right_ebox"
 				(path "/a717b0d5-2372-4f47-b3ca-c1f58656d6b1"
-					(reference "C3")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -1633,7 +1641,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "598da1d9-5e24-4aca-b226-601f37a711e6")
-		(property "Reference" "J7"
+		(property "Reference" "J4"
 			(at 133.35 140.9699 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1655,7 +1663,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_Phoenix:SPARKMAX_CONNECTOR"
 			(at 130.81 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -1697,7 +1705,7 @@
 		(instances
 			(project "right_ebox"
 				(path "/a717b0d5-2372-4f47-b3ca-c1f58656d6b1"
-					(reference "J7")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -1715,7 +1723,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6d4e8ae5-f541-4359-a600-3f0e406bf7d5")
-		(property "Reference" "F7"
+		(property "Reference" "F4"
 			(at 148.59 105.4099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1737,7 +1745,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:FUSE_EBOX"
 			(at 144.272 106.68 90)
 			(hide yes)
 			(show_name no)
@@ -1779,7 +1787,7 @@
 		(instances
 			(project "right_ebox"
 				(path "/a717b0d5-2372-4f47-b3ca-c1f58656d6b1"
-					(reference "F7")
+					(reference "F4")
 					(unit 1)
 				)
 			)
@@ -1787,7 +1795,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 36.83 90.17 180)
+		(at 33.02 76.2 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1797,28 +1805,30 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "79633671-9f71-434c-af88-344a874944d2")
-		(property "Reference" "J5"
-			(at 36.83 81.28 0)
+		(property "Reference" "J1"
+			(at 38.1 74.9299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 36.83 83.82 0)
+			(at 38.1 77.4699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 36.83 90.17 0)
+		(property "Footprint" "TerminalBlock_Phoenix:BATTERY_CONN_EBOX"
+			(at 33.02 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1829,7 +1839,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 36.83 90.17 0)
+			(at 33.02 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1840,7 +1850,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 36.83 90.17 0)
+			(at 33.02 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1859,7 +1869,7 @@
 		(instances
 			(project "right_ebox"
 				(path "/a717b0d5-2372-4f47-b3ca-c1f58656d6b1"
-					(reference "J5")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -1877,7 +1887,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "897ba637-0809-40e6-aa83-74bca8749d81")
-		(property "Reference" "C8"
+		(property "Reference" "C6"
 			(at 169.291 118.11 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1887,7 +1897,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Polarized"
+		(property "Value" "1uF"
 			(at 169.291 120.65 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1897,7 +1907,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
 			(at 173.99 124.7648 0)
 			(hide yes)
 			(show_name no)
@@ -1939,7 +1949,7 @@
 		(instances
 			(project "right_ebox"
 				(path "/a717b0d5-2372-4f47-b3ca-c1f58656d6b1"
-					(reference "C8")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -1957,7 +1967,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8b8c6831-cb37-4333-b197-eb6d5cef2d47")
-		(property "Reference" "C1"
+		(property "Reference" "C2"
 			(at 86.741 118.11 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1967,7 +1977,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Polarized"
+		(property "Value" "1uF"
 			(at 86.741 120.65 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1977,7 +1987,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
 			(at 91.44 124.7648 0)
 			(hide yes)
 			(show_name no)
@@ -2019,7 +2029,7 @@
 		(instances
 			(project "right_ebox"
 				(path "/a717b0d5-2372-4f47-b3ca-c1f58656d6b1"
-					(reference "C1")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -2037,7 +2047,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e4c758d-2f34-4b15-80b7-eceab9208ec5")
-		(property "Reference" "J9"
+		(property "Reference" "J6"
 			(at 173.99 140.9699 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2059,7 +2069,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_Phoenix:SPARKMAX_CONNECTOR"
 			(at 171.45 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -2101,7 +2111,7 @@
 		(instances
 			(project "right_ebox"
 				(path "/a717b0d5-2372-4f47-b3ca-c1f58656d6b1"
-					(reference "J9")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -2119,7 +2129,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9f9adfdd-caa3-43ad-978c-ec9567a5d343")
-		(property "Reference" "J6"
+		(property "Reference" "J3"
 			(at 113.03 140.9699 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2141,7 +2151,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_Phoenix:SPARKMAX_CONNECTOR"
 			(at 110.49 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -2183,7 +2193,7 @@
 		(instances
 			(project "right_ebox"
 				(path "/a717b0d5-2372-4f47-b3ca-c1f58656d6b1"
-					(reference "J6")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -2201,7 +2211,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9c5c80c-f621-46c6-acb0-79d9c013e115")
-		(property "Reference" "J8"
+		(property "Reference" "J5"
 			(at 153.67 140.9699 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2223,7 +2233,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_Phoenix:SPARKMAX_CONNECTOR"
 			(at 151.13 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -2265,7 +2275,7 @@
 		(instances
 			(project "right_ebox"
 				(path "/a717b0d5-2372-4f47-b3ca-c1f58656d6b1"
-					(reference "J8")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -2283,7 +2293,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "daf41fd0-c6d7-4d15-be27-38750e20b31b")
-		(property "Reference" "C7"
+		(property "Reference" "C5"
 			(at 148.971 118.11 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2293,7 +2303,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Polarized"
+		(property "Value" "1uF"
 			(at 148.971 120.65 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2303,7 +2313,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
 			(at 153.67 124.7648 0)
 			(hide yes)
 			(show_name no)
@@ -2345,7 +2355,7 @@
 		(instances
 			(project "right_ebox"
 				(path "/a717b0d5-2372-4f47-b3ca-c1f58656d6b1"
-					(reference "C7")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -2363,7 +2373,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f262aa50-e7ca-40c3-a4a5-63edf9e43b98")
-		(property "Reference" "F8"
+		(property "Reference" "F5"
 			(at 168.91 105.4099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2385,7 +2395,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:FUSE_EBOX"
 			(at 164.592 106.68 90)
 			(hide yes)
 			(show_name no)
@@ -2427,7 +2437,7 @@
 		(instances
 			(project "right_ebox"
 				(path "/a717b0d5-2372-4f47-b3ca-c1f58656d6b1"
-					(reference "F8")
+					(reference "F5")
 					(unit 1)
 				)
 			)
@@ -2445,7 +2455,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f84b21a2-08f7-4121-a11e-6263cc909928")
-		(property "Reference" "C4"
+		(property "Reference" "C3"
 			(at 108.331 118.11 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2455,7 +2465,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Polarized"
+		(property "Value" "1uF"
 			(at 108.331 120.65 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2465,7 +2475,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
 			(at 113.03 124.7648 0)
 			(hide yes)
 			(show_name no)
@@ -2507,7 +2517,7 @@
 		(instances
 			(project "right_ebox"
 				(path "/a717b0d5-2372-4f47-b3ca-c1f58656d6b1"
-					(reference "C4")
+					(reference "C3")
 					(unit 1)
 				)
 			)
