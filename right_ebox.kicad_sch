@@ -548,6 +548,12 @@
 		(uuid "053f55de-9ae5-4a3e-a1f6-496c5b027cb6")
 	)
 	(junction
+		(at 173.99 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "06bdc877-5ffa-4158-bb5c-77fbfa156c08")
+	)
+	(junction
 		(at 133.35 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -608,10 +614,22 @@
 		(uuid "ac88bfe3-06eb-462f-b3ad-f2b174e6f5e2")
 	)
 	(junction
+		(at 186.69 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ae199fb2-d91e-458f-acdb-2236f3a77309")
+	)
+	(junction
 		(at 91.44 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b8dbe782-bb88-460a-a11e-7f8ecd39e79e")
+	)
+	(junction
+		(at 194.31 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba8f8249-e273-4b2a-9af1-99e4490f3929")
 	)
 	(junction
 		(at 105.41 85.09)
@@ -630,6 +648,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d2c847de-282b-44d7-90c2-f432ddf77a23")
+	)
+	(junction
+		(at 166.37 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e179b7f7-71e6-411b-b6ff-4d33cc0f0fb3")
 	)
 	(junction
 		(at 125.73 85.09)
@@ -711,6 +735,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 102.87) (xy 186.69 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17f161a0-4046-41d9-b3da-6668a0a3c522")
+	)
+	(wire
+		(pts
 			(xy 130.81 137.16) (xy 133.35 137.16)
 		)
 		(stroke
@@ -778,6 +812,16 @@
 			(type default)
 		)
 		(uuid "35beb1a7-5f80-4752-9311-007347e2a8cd")
+	)
+	(wire
+		(pts
+			(xy 194.31 125.73) (xy 194.31 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36e5cdda-68b8-4d9d-88f2-1484f773f1b9")
 	)
 	(wire
 		(pts
@@ -851,6 +895,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 85.09) (xy 186.69 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59eee39d-2996-436e-968f-4dfe452376e5")
+	)
+	(wire
+		(pts
 			(xy 146.05 102.87) (xy 146.05 85.09)
 		)
 		(stroke
@@ -888,6 +942,16 @@
 			(type default)
 		)
 		(uuid "74cce955-cabc-4a63-b0f8-ec9b074ca5d1")
+	)
+	(wire
+		(pts
+			(xy 173.99 92.71) (xy 194.31 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ce66c04-d018-4e5d-9665-4ffcbc1329f9")
 	)
 	(wire
 		(pts
@@ -931,6 +995,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 137.16) (xy 194.31 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a32dc071-11b2-46a4-b20e-2e8d1de21e55")
+	)
+	(wire
+		(pts
 			(xy 133.35 92.71) (xy 153.67 92.71)
 		)
 		(stroke
@@ -968,6 +1042,16 @@
 			(type default)
 		)
 		(uuid "b4167bdc-e00c-4457-ba4b-66eafe6e61cd")
+	)
+	(wire
+		(pts
+			(xy 194.31 137.16) (xy 194.31 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b589a238-c0fc-45f6-815c-81dbf63663d0")
 	)
 	(wire
 		(pts
@@ -1071,6 +1155,26 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 110.49) (xy 186.69 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8a1a949-dd66-45cd-a8f7-8bcc1ac962a5")
+	)
+	(wire
+		(pts
+			(xy 186.69 137.16) (xy 189.23 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed374ebd-1355-4544-aa7a-8210b21b254c")
+	)
+	(wire
+		(pts
 			(xy 173.99 125.73) (xy 173.99 92.71)
 		)
 		(stroke
@@ -1078,6 +1182,16 @@
 			(type default)
 		)
 		(uuid "f3a78b42-f33a-4d67-9e2e-a228fd9d4949")
+	)
+	(wire
+		(pts
+			(xy 186.69 125.73) (xy 186.69 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f74e8cfa-2f7f-4dc6-8491-1d2e0423c18f")
 	)
 	(wire
 		(pts
@@ -1712,6 +1826,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 191.77 142.24 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6779388c-6ac1-42ad-b474-cb96bd802d7a")
+		(property "Reference" "J7"
+			(at 194.31 140.9699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 194.31 143.5099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:SPARKMAX_CONNECTOR"
+			(at 191.77 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 191.77 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ea588b84-81cf-4f4d-8893-9b1810136fb7")
+		)
+		(pin "2"
+			(uuid "eeb2b44f-bfca-4780-805b-c6bc405f4d69")
+		)
+		(instances
+			(project "right_ebox"
+				(path "/a717b0d5-2372-4f47-b3ca-c1f58656d6b1"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Fuse")
 		(at 146.05 106.68 0)
 		(unit 1)
@@ -2200,6 +2396,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Fuse")
+		(at 186.69 106.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a0b2d880-eede-4a34-89bd-2bf2723cbb1e")
+		(property "Reference" "F6"
+			(at 189.23 105.4099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fuse"
+			(at 189.23 107.9499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fuse:FUSE_EBOX"
+			(at 184.912 106.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 186.69 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3a2a3f58-165f-40d1-b0e5-9277413ca7d1")
+		)
+		(pin "2"
+			(uuid "4acd8870-7e10-409e-9750-4688444651a2")
+		)
+		(instances
+			(project "right_ebox"
+				(path "/a717b0d5-2372-4f47-b3ca-c1f58656d6b1"
+					(reference "F6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
 		(at 151.13 142.24 270)
 		(unit 1)
@@ -2518,6 +2796,86 @@
 			(project "right_ebox"
 				(path "/a717b0d5-2372-4f47-b3ca-c1f58656d6b1"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 190.5 125.73 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff4a1346-d097-434c-b80e-b6315258ab0a")
+		(property "Reference" "C7"
+			(at 189.611 118.11 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1uF"
+			(at 189.611 120.65 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
+			(at 194.31 124.7648 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 190.5 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7ca15d26-d446-4afb-9adb-e53f0899f912")
+		)
+		(pin "1"
+			(uuid "ac6b7be6-a9dd-4c51-850a-47bfbab95aa6")
+		)
+		(instances
+			(project "right_ebox"
+				(path "/a717b0d5-2372-4f47-b3ca-c1f58656d6b1"
+					(reference "C7")
 					(unit 1)
 				)
 			)
