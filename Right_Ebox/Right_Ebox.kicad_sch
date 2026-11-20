@@ -1329,7 +1329,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Fuse:FUSE_EBOX"
+		(property "Footprint" "EBOX_FOOTPRINTS:FUSE"
 			(at 160.782 121.92 90)
 			(hide yes)
 			(show_name no)
@@ -1411,7 +1411,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:SPARKMAX_CONNECTOR"
+		(property "Footprint" "EBOX_FOOTPRINTS:SPARMAX_CONN"
 			(at 167.64 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -1493,7 +1493,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Fuse:FUSE_EBOX"
+		(property "Footprint" "EBOX_FOOTPRINTS:FUSE"
 			(at 99.822 121.92 90)
 			(hide yes)
 			(show_name no)
@@ -1575,7 +1575,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:SPARKMAX_CONNECTOR"
+		(property "Footprint" "EBOX_FOOTPRINTS:SPARMAX_CONN"
 			(at 106.68 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -1737,7 +1737,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:SPARKMAX_CONNECTOR"
+		(property "Footprint" "EBOX_FOOTPRINTS:SPARMAX_CONN"
 			(at 187.96 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -1819,7 +1819,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Fuse:FUSE_EBOX"
+		(property "Footprint" "EBOX_FOOTPRINTS:FUSE"
 			(at 181.102 121.92 90)
 			(hide yes)
 			(show_name no)
@@ -1901,7 +1901,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Fuse:FUSE_EBOX"
+		(property "Footprint" "EBOX_FOOTPRINTS:FUSE"
 			(at 140.462 121.92 90)
 			(hide yes)
 			(show_name no)
@@ -2145,7 +2145,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:SPARKMAX_CONNECTOR"
+		(property "Footprint" "EBOX_FOOTPRINTS:SPARMAX_CONN"
 			(at 127 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -2227,7 +2227,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:SPARKMAX_CONNECTOR"
+		(property "Footprint" "EBOX_FOOTPRINTS:SPARMAX_CONN"
 			(at 147.32 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -2309,7 +2309,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Fuse:FUSE_EBOX"
+		(property "Footprint" "EBOX_FOOTPRINTS:FUSE"
 			(at 118.872 121.92 90)
 			(hide yes)
 			(show_name no)
@@ -2551,7 +2551,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:BATTERY_CONN_EBOX"
+		(property "Footprint" "EBOX_FOOTPRINTS:BATTERY_AND_LOW_VOLTAGE_CONNECTOR"
 			(at 31.75 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -2793,7 +2793,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:SPARKMAX_CONNECTOR"
+		(property "Footprint" "EBOX_FOOTPRINTS:SPARMAX_CONN"
 			(at 85.09 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -2875,7 +2875,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Fuse:FUSE_EBOX"
+		(property "Footprint" "EBOX_FOOTPRINTS:FUSE"
 			(at 78.232 121.92 90)
 			(hide yes)
 			(show_name no)
